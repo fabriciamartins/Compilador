@@ -18,7 +18,7 @@ public class Compilador {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Home ui = Home.getInstance();
+        Home ui = new Home();
         ui.setVisible(true);
     }
     
